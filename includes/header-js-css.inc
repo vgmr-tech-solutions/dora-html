@@ -6,3 +6,8 @@
 <link href="/resources/css/style.css" rel="stylesheet">
 <link href="/resources/css/media.css" rel="stylesheet">
 <!-- header css and script ends -->
+
+<!-- Font Awsome css Starts Here -->
+<link href="/resources/css/fontawesome.css" rel="stylesheet">
+<link href="/resources/css/fontawesome4.css" rel="stylesheet">
+<!-- Font Awsome css Ends Here -->

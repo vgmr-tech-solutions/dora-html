@@ -1,0 +1,45 @@
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    
+}
+@media screen and (max-width: 767px) {
+    
+    .desktop-purpose{display: none !important;}
+    .tab-purpose{display:block !important}
+    .mobile-purpose{display: none !important;}
+
+    
+}
+@media screen and (max-width: 599px) {
+    .desktop-purpose{display: none !important;}
+    .tab-purpose{display:none !important}
+    .mobile-purpose{display: block !important;}
+   
+}
+@media screen and (max-width: 576px) {
+    
+}
+@media screen and (max-width: 450px) {
+   
+}
+@media screen and (max-width: 410px) {
+    
+}
+@media screen and (max-width: 320px) {
+}
+
+/* About page 7 Sept*/
+@media screen and (max-width: 599px) {
+   
+}

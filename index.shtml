@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Template</title>
+  <!-- header css and script starts -->
+  <!--#include virtual='/includes/header-js-css.inc'-->
+  <!-- header css and script ends -->
+</head>
+
+<body>
+  <!-- header css and script starts -->
+  <!--#include virtual='/includes/header.inc'-->
+  <!-- header css and script ends -->
+  <div class="wrapper home">
+    
+
+  </div>
+
+  
+
+  <!-- footer starts -->
+  <!--#include virtual='/includes/footer.inc'-->
+  <!-- footer ends -->
+  <!-- footer js css and script starts -->
+  <!--#include virtual='/includes/footer-js-css.inc'-->
+  <!-- footer js css and script ends -->
+  <script>
+  $(document).ready(function() {
+
+  });
+  </script>
+</body>
+
+</html>

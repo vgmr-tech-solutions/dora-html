@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dora El Chiaty</title>
+  <!-- header css and script starts -->
+  <!--#include virtual='/includes/header-js-css.inc'-->
+  <!-- header css and script ends -->
+</head>
+
+<body class="inner-page">
+  <!-- header css and script starts -->
+  <!--#include virtual='/includes/header.inc'-->
+  <!-- header css and script ends -->
+  <div class="wrapper">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+          <li class="breadcrumb-item" aria-current="page">About</li>
+        </ol>
+      </nav>
+      <div class="row">
+        <div class="col">
+          <div class="img-overlap">
+            <figure>
+              <img src="resources/images/aboutbg.png" alt="" class="about-img">
+            </figure>
+            <div class="child-div center">
+              <img src="resources/images/about-img.png" alt="about-img" class="brd" />
+            </div>
+          </div>
+          <div class="about-list">
+            <ul>
+              <li><span><img src="resources/images/Icon-Hotel-Blue.png" alt="hotel-icon"></span>Hotels</li>
+              <li><span><img src="resources/images/Icon-Restaurant.png" alt="hotel-icon"></span>Restaurants</li>
+              <li><span><img src="resources/images/Icon-Home.png" alt="hotel-icon"></span>Residences</li>
+              <li><span><img src="resources/images/Icon-Cruise.png" alt="hotel-icon"></span>Cruise Ships</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="about-info">
+            <h1>About DEC</h1>
+            <h2>Having Greek origins, <strong>D</strong>ora <strong>E</strong>l Chiaty was born and raised in Ismalia, Egypt.</h2>
+          </div>
+          <p>She went to boarding school in France, then to Spain for university – ending up at the American University in Cairo, where she graduated with a degree in both Mass Communication and Anthropology.</p>
+          <p>Currently being a <strong>Board Member and Head of the Engineering Department at Travco Group International, Dora El Chiaty</strong> has been practicing her talent as an Interior Designer for longer than fifteen years. Starting by designing and decorating the interiors of the group’s first two Nile Cruise Ships, Royale and Regency, El Chiaty realized her passion for the job. Consequently, she took up the job of being the sole designer of the group’s successive developments including <strong>hotels, Cruise Ships,</strong> and <strong>restaurants,</strong> as well as the group’s new headquarters in Sheikh Zayed City.</p>
+          <p>Being spontaneously inspired by her surroundings, and keeping up with the trends, El Chiaty chooses a different theme for all her work. Favoring Asian fusion designs, and considering the location and destination of her current project, she initially focuses on the receptions and lobbies as she artistically designs the interiors, as they are the guests’ first impression of the premises, followed by the guest rooms, restaurants and bars. Most furniture and accessories used are custom made especially for the hotels and Cruise Ships, while the rest is imported or chosen personally by El Chiaty from a wide array of designs displayed in international exhibitions and showrooms.</p>
+          <p>Amongst Dora El Chiaty’s portfolio are Travco Group’s new masterpieces <strong>Jaz Crystal</strong> and <strong>Jaz Oriental Resorts</strong> in Almaza Bay, Mersa Matruh, and <strong>Jaz Omar El Khayam deluxe vessel</strong> in Lake Nasser, as well as four new hotel projects; Aquamarine in Hurghada, the unprecedented all-suite cruise ship Jaz Esperia and the upcoming Jaz Legacy and Jaz Minerva.</p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5"></div>
+    
+
+  </div>
+
+  
+
+  <!-- footer starts -->
+  <!--#include virtual='/includes/footer.inc'-->
+  <!-- footer ends -->
+  <!-- footer js css and script starts -->
+  <!--#include virtual='/includes/footer-js-css.inc'-->
+  <!-- footer js css and script ends -->
+  <script>
+  $(document).ready(function() {
+
+  });
+  </script>
+</body>
+
+</html>

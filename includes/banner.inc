@@ -1,1 +1,1 @@
-<img src="resources/images/home-banner.jpg" />
+<img src="resources/images/home-banner.jpg" class="banner-img"/>

@@ -4,6 +4,15 @@
 @media screen and (max-width: 1199px) {
 }
 
+@media screen and (max-width: 1366px) {
+    ul.medialist li + li {padding-left: 70px;}
+    ul.medialist li figure figcaption h5 {font-size: 1rem;}
+    .media-section .media-info .img-overlap .child-div {width: 500px;}
+    .media-section .media-info .img-overlap .child-div .child-info {padding:40px 50px 88px 50px;}
+    ul.medialist li figure {width: 250px;height: 200px;}
+    .media-section .media-info .img-overlap .child-div .child-info h3 {font-size: 1.7rem;}
+}
+
 @media screen and (max-width: 1024px) {
 }
 

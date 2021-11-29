@@ -3,7 +3,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
 			<a class="navbar-brand" href="index.shtml">
-				<img src="/resources/images/dora-logo.png" alt="Logo"title="Logo">
+				<img src="/resources/images/dora-logo.png" alt="Logo" title="Logo">
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					
 					<div class="menubtn btn2" data-menu="2">
-						<label>MENU</label><div class="icon"></div>
+						<span>MENU</span><div class="icon"></div>
 					</div>
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

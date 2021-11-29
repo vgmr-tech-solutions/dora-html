@@ -8,7 +8,7 @@
 <script>
 $('.menubtn').click (function(){
   $(this).toggleClass('open');
-});
+});   
 </script>
 <!---- Seperate
 <script src="/resources/js/popper.min.js"></script>

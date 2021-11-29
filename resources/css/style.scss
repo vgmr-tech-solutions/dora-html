@@ -287,6 +287,12 @@
     .banner {
       position: relative;
       margin-top: -88px;
+      .carousel-item {height: 100vh;
+      .carousel-caption {text-align: left;
+        h2 {color:#FFF;font-weight: 600;margin-bottom: 30px;}
+        .btn-outline-primary {color:#FFF;border:1px solid #FFF;}
+          }
+    }
     }
   }
   img.banner-img {width: 100%;}
@@ -299,7 +305,7 @@
     left: 70px;
     transition-duration: 0.5s;
   }
-  .btn2 label {position: absolute;top:0px;left:-70px;}
+  .btn2 span {position: absolute;top:0px;left:-70px;}
   .btn2 .icon {
     transition-duration: 0.5s;
     position: absolute;
@@ -372,12 +378,6 @@
     transform: translateY(-50%);
   }
 
-  // Size can also be negative; see how it's smaller than the element
-.raise:hover,
-.raise:focus {
- 
-}
-
 
 
   .inner-home {position: relative;}
@@ -422,7 +422,7 @@
   }
   .dora-info {
     position: absolute;right:8.5%;transform:translateY(-50%);top:50%;
-    figcaption {
+    .info {
       background-color: #FFF;
       padding: 70px;
       width: 708px;
@@ -594,7 +594,7 @@ ul
               display:flex;
               justify-content: center;
               align-items: center;
-              h5 {color:#FFF;font-weight: 600;}
+              h5 {color:#FFF;font-weight: 600;text-align: center;line-height: 1.7em;}
               p {text-transform: uppercase;text-align: center;font-weight: 500;font-size: 14px;position: relative;margin-top:40px;
               &:before{content:'';position: absolute;width: 60%;background-color: #ffffff54;height: 2px;top:0;left:50%;transform: translateX(-50%);}
               &:after{content:'';position: absolute;width: 60%;background-color: #ffffff54;height: 2px;bottom:0;left:50%;transform: translateX(-50%);}

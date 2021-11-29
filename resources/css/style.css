@@ -324,6 +324,21 @@ a, a:hover, a:focus, a:active, .btn-outline-primary, .btn-outline-primary:hover,
   position: relative;
   margin-top: -88px;
 }
+.home .banner .carousel-item {
+  height: 100vh;
+}
+.home .banner .carousel-item .carousel-caption {
+  text-align: left;
+}
+.home .banner .carousel-item .carousel-caption h2 {
+  color: #FFF;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.home .banner .carousel-item .carousel-caption .btn-outline-primary {
+  color: #FFF;
+  border: 1px solid #FFF;
+}
 
 img.banner-img {
   width: 100%;
@@ -338,7 +353,7 @@ img.banner-img {
   transition-duration: 0.5s;
 }
 
-.btn2 label {
+.btn2 span {
   position: absolute;
   top: 0px;
   left: -70px;
@@ -500,13 +515,13 @@ figure.homeabt-img img {
   transform: translateY(-50%);
   top: 50%;
 }
-.dora-info figcaption {
+.dora-info .info {
   background-color: #FFF;
   padding: 70px;
   width: 708px;
   box-shadow: 0px 12px 21px 0px #00000014;
 }
-.dora-info figcaption h2 {
+.dora-info .info h2 {
   color: #000;
 }
 
@@ -760,6 +775,8 @@ ul.medialist li figure figcaption {
 ul.medialist li figure figcaption h5 {
   color: #FFF;
   font-weight: 600;
+  text-align: center;
+  line-height: 1.7em;
 }
 ul.medialist li figure figcaption p {
   text-transform: uppercase;

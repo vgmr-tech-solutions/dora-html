@@ -14,9 +14,9 @@
   <!--#include virtual='/includes/header.inc'-->
   <!-- header css and script ends -->
   <div class="wrapper">
-    <section class="banner">
+    <div class="banner">
        <!--#include virtual='/includes/banner.inc'-->
-    </section>
+    </div>
     
     <section class="inner-home">
       <div class="container">
@@ -88,7 +88,7 @@
                   <div class="portfolio-info">
                     <div>
                       <h6 class="heading">Portfolio</h6>
-                      <h3><span class="icon"><img src="resources/images/Icon-Hotel-Blue.png" alt="hotel-icon" class="img-fluid"></span>Hotels</h3>
+                      <h3><span class="icon"><img src="resources/images/Icon-Hotel-Blue.png" alt="hotel-icon" class="img-fluid"></span>Restaurants</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. When an unknown printer took.</p>
                       <a class="btn btn-outline-primary" href="">Explore  Projects</a>
                     </div>
@@ -113,7 +113,7 @@
                   <div class="portfolio-info">
                     <div>
                       <h6 class="heading">Portfolio</h6>
-                      <h3><span class="icon"><img src="resources/images/Icon-Hotel-Blue.png" alt="hotel-icon" class="img-fluid"></span>Hotels</h3>
+                      <h3><span class="icon"><img src="resources/images/Icon-Hotel-Blue.png" alt="hotel-icon" class="img-fluid"></span>Residences</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. When an unknown printer took.</p>
                       <a class="btn btn-outline-primary" href="">Explore  Projects</a>
                     </div>
@@ -138,7 +138,7 @@
                   <div class="portfolio-info">
                     <div>
                       <h6 class="heading">Portfolio</h6>
-                      <h3><span class="icon"><img src="resources/images/Icon-Hotel-Blue.png" alt="hotel-icon" class="img-fluid"></span>Hotels</h3>
+                      <h3><span class="icon"><img src="resources/images/Icon-Hotel-Blue.png" alt="hotel-icon" class="img-fluid"></span>Cruise Ships</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. When an unknown printer took.</p>
                       <a class="btn btn-outline-primary" href="">Explore  Projects</a>
                     </div>
@@ -182,7 +182,7 @@
               </div>
               
               <div class="dora-info">
-                <figcaption>
+                <div class="info">
                   <div class="d-flex flex-row">
                     <div class="">
                       <img src="resources/images/hotel-design.png" alt="about-img" />
@@ -194,7 +194,7 @@
                       <a class="btn btn-outline-primary" href="">Read more about book</a>
                     </div>
                   </div>
-                </figcaption>
+                </div>
               </div>
             
           </div>
@@ -222,7 +222,20 @@
                   <figcaption>
                     <div>
                       <a href="">
-                        <h5>Hideaways</h5>
+                        <h5>Hideaways German</h5>
+                        <p>Mar 2018</p>
+                      </a>
+                    </div>
+                </figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure style="background-image: url(resources/images/hideaways-jaz-german.png);">
+                  <figcaption>
+                    <div>
+                      <a href="">
+                        <h5>Hideaways <br/>
+                          Jaz Yakouta German</h5>
                         <p>Mar 2018</p>
                       </a>
                     </div>
@@ -234,19 +247,7 @@
                   <figcaption>
                     <div>
                       <a href="">
-                        <h5>Hideaways</h5>
-                        <p>Mar 2018</p>
-                      </a>
-                    </div>
-                </figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure style="background-image: url(resources/images/hideaways.png);">
-                  <figcaption>
-                    <div>
-                      <a href="">
-                        <h5>Hideaways</h5>
+                        <h5>Hideaways German 2</h5>
                         <p>Mar 2018</p>
                       </a>
                     </div>
@@ -276,36 +277,36 @@
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <div class="row g-0">
             <div class="col">
-              <div class="instagram-feed">
+              <figure class="instagram-feed">
                 <img src="resources/images/instagram-post.png" alt="instagram-img" class="img-fluid">
                 <figcaption>
                   <img src="resources/images/dora-logo.png" alt="" >
                 </figcaption>
-              </div>
+              </figure>
             </div>
             <div class="col">
-              <div class="instagram-feed">
+              <figure class="instagram-feed">
                 <img src="resources/images/instagram-post-2.png" alt="instagram-img" class="img-fluid">
                 <figcaption>
                   <img src="resources/images/dora-logo.png" alt="" >
                 </figcaption>
-              </div>
+              </figure>
             </div>
             <div class="col">
-              <div class="instagram-feed">
+              <figure class="instagram-feed">
                 <img src="resources/images/instagram-post-3.png" alt="instagram-img" class="img-fluid">
                 <figcaption>
                   <img src="resources/images/dora-logo.png" alt="" >
                 </figcaption>
-              </div>
+              </figure>
             </div>
             <div class="col">
-              <div class="instagram-feed">
+              <figure class="instagram-feed">
                 <img src="resources/images/instagram-post-4.png" alt="instagram-img" class="img-fluid">
                 <figcaption>
                   <img src="resources/images/dora-logo.png" alt="" >
                 </figcaption>
-              </div>
+              </figure>
             </div>
           </div>
           <div class="text-center mt-4">

@@ -313,6 +313,12 @@ footer .fa {
   font-size: 28px;
 }
 
+a, a:hover, a:focus, a:active, .btn-outline-primary, .btn-outline-primary:hover, .btn.btn-primary, .btn.btn-primary:hover {
+  color: inherit;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
 /* Home Banner */
 .home .banner {
   position: relative;
@@ -398,6 +404,20 @@ img.banner-img {
   position: relative;
   padding: 0px 25px 2px 15px;
 }
+.btn-outline-primary:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em #1f136b;
+  transform: translateY(-0.25em);
+  color: #1f136b;
+  background-color: transparent;
+  border-color: #1F136B;
+}
+.btn-outline-primary:focus, .btn-outline-primary.active:focus, .btn-outline-primary:active:focus {
+  box-shadow: none;
+  background: transparent;
+  color: #1f136b;
+  box-shadow: 0 0.5em 0.5em -0.4em #1f136b;
+  transform: translateY(-0.25em);
+}
 
 .btn-outline-primary:after {
   position: relative;
@@ -407,6 +427,10 @@ img.banner-img {
   font-weight: 700;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.inner-home {
+  position: relative;
 }
 
 /* Home page About Section */
@@ -664,4 +688,138 @@ figure.homeabt-img img {
   bottom: 50px;
   opacity: 40%;
   color: #4E4E4E;
+}
+
+/* Home page Media CSS */
+.media-section {
+  position: relative;
+}
+.media-section .media-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.media-section .media-info .img-overlap {
+  position: relative;
+  height: auto;
+}
+.media-section .media-info .img-overlap .child-div {
+  position: absolute;
+  right: 20px;
+  width: 570px;
+}
+.media-section .media-info .img-overlap .child-div .child-info {
+  background-color: #F9F9F9;
+  padding: 40px 60px 88px 60px;
+  border: 15px solid #F5F5F5;
+}
+.media-section .media-info .img-overlap .child-div .child-info h3 {
+  color: #000000;
+  font-size: 1.87rem;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+ul.medialist {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+ul.medialist.paddr40 {
+  padding-right: 40%;
+}
+ul.medialist li {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  z-index: 9;
+}
+ul.medialist li figure {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 233px;
+  background-position: center center;
+  padding: 25px;
+  margin: 0;
+}
+ul.medialist li figure figcaption {
+  position: relative;
+  z-index: 9;
+  height: 100%;
+  color: #FFF;
+  border: 1px solid #ffffffa3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul.medialist li figure figcaption h5 {
+  color: #FFF;
+  font-weight: 600;
+}
+ul.medialist li figure figcaption p {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  margin-top: 40px;
+}
+ul.medialist li figure figcaption p:before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  background-color: #ffffff54;
+  height: 2px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ul.medialist li figure figcaption p:after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  background-color: #ffffff54;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ul.medialist li figure figcaption a {
+  color: #FFF;
+  text-decoration: none;
+}
+ul.medialist li figure:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+ul.medialist li + li {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+/* Home page Instagram Feed CSS */
+.instagram-feed {
+  position: relative;
+}
+.instagram-feed img {
+  width: 100%;
+}
+.instagram-feed figcaption {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.instagram-feed figcaption img {
+  width: 120px;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
